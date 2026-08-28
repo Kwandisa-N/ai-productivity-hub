@@ -27,7 +27,7 @@ export const Route = createFileRoute("/research-assistant")({
       },
     ],
   }),
-  component: ResearchAssistant;
+  component: ResearchAssistant,
 });
 
 type Result = { summary: string; insights: string[]; recommendations: string[]; considerations: string[] };
